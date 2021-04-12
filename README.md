@@ -30,8 +30,8 @@ Users should be able to:
 
 The screenshot of the final page:
 
-1440p x 900px resolution: https://a2109k.github.io/fm-faq-accordian/assets/images/desktop-accordian.png;
-375px x 900px: https://a2109k.github.io/fm-faq-accordian/assets/images/mob-accordian.png;
+1440p x 800px resolution: https://a2109k.github.io/fm-faq-accordian/assets/images/desktop-accordian.png;
+375px x 667px: https://a2109k.github.io/fm-faq-accordian/assets/images/mob-accordian.png;
 
 
 ### Links
