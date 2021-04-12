@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link href="assets/scss/styles.css" rel="stylesheet">
+  <title>Frontend Mentor | FAQ Accordion Card</title>
+
+</head>
+<body>
+
+  <div class="main-wrapper">
+
+    <div class="main-content row">
+      <div class="col-lg-6 col-xl-6 col-md-6  col-sm-12 col-12 left-col pl-0 pr-0">
+        
+        <div class="box-img-wrapper">
+          <img  class="d-none d-md-block" src="assets/images/illustration-box-desktop.svg" class="ill-box">
+        </div>
+      
+        <div class="women-img-wrapper" >
+          <img class="d-none d-md-block" src="assets/images/illustration-woman-online-desktop.svg" alt="">
+          <img  class="d-block d-md-none"src="assets/images/illustration-woman-online-mobile.svg" alt="">
+        </div>
+        <!-- <div >
+         
+        </div> -->
+       
+      </div>
+      <div class="col-lg-6 col-xl-6 col-md-6 col-sm-12 col-12 right-col">
+       
+
+        <div class="faq-questions" id="accordionExample">
+
+            <h1> FAQ</h1>
+            <div class="faq-ques-block">
+              <div class="faq-ques row mr-0 ml-0" id="headingOne">
+                <h2 class="col-lg-11 col-xl-11 col-md-11 col-10" data-toggle="collapse" data-target="#ques-one" aria-expanded="false" aria-controls="collapseOne"> 
+                  How many team members can I invite? 
+                </h2>
+                <span class="col-lg-1 col-xl-1 col-md-1 col-2"  data-toggle="collapse" data-target="#ques-one" aria-expanded="false" aria-controls="collapseOne">
+                  <img src="/assets/images/icon-arrow-down.svg">
+                </span>
+              </div>
+          
+              <div id="ques-one" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                  You can invite as many people as you want. We will be happy for each one to join us.
+              </div>
+            </div>
+
+            <div class="faq-ques-block">
+              <div class="faq-ques row mr-0 ml-0" id="headingOne">
+                <h2 class="col-lg-11 col-xl-11 col-md-11 col-10" data-toggle="collapse" data-target="#ques-two" aria-expanded="false" aria-controls="collapseOne"> 
+                  What is the maximum file upload size? 
+                </h2>
+                <span class="col-lg-1 col-xl-1 col-md-1 col-2" data-toggle="collapse" data-target="#ques-two" aria-expanded="false" aria-controls="collapseOne">
+                  <img src="/assets/images/icon-arrow-down.svg">
+                </span>
+              </div>
+          
+              <div id="ques-two" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                 No more than 2GB. All files in your account must fit your alloted storage space.
+              </div>
+            </div>
+
+            <div class="faq-ques-block">
+              <div class="faq-ques row mr-0 ml-0" id="headingOne">
+                <h2 class="col-lg-11 col-xl-11 col-md-11 col-10" data-toggle="collapse" data-target="#ques-three" aria-expanded="false" aria-controls="collapseOne"> 
+                  How do I reset my password?
+                </h2>
+                <span class="col-lg-1 col-xl-1 col-md-1 col-2"  data-toggle="collapse" data-target="#ques-three" aria-expanded="false" aria-controls="collapseOne">
+                  <img src="/assets/images/icon-arrow-down.svg">
+                </span>
+              </div>
+          
+              <div id="ques-three" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                  Go to your profile and click on change password. An email to your linked account will be sent along with the instructions to reset the account.
+              </div>
+            </div>
+
+            <div class="faq-ques-block">
+              <div class="faq-ques row mr-0 ml-0" id="headingOne">
+                <h2 class="col-lg-11 col-xl-11 col-md-11 col-10" data-toggle="collapse" data-target="#ques-four" aria-expanded="false" aria-controls="collapseOne"> 
+                  Can I cancel my subscription?
+                </h2>
+                <span class="col-lg-1 col-xl-1 col-md-1 col-2"  data-toggle="collapse" data-target="#ques-four" aria-expanded="false" aria-controls="collapseOne">
+                  <img src="/assets/images/icon-arrow-down.svg">
+                </span>
+              </div>
+          
+              <div id="ques-four" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                  You can cancel your subscription any time by going to your profile and clicking 'view my subscription' link.
+              </div>
+            </div>
+
+            <div class="faq-ques-block">
+              <div class="faq-ques row mr-0 ml-0" id="headingOne">
+                <h2 class="col-lg-11 col-xl-11 col-md-11 col-10" data-toggle="collapse" data-target="#ques-five" aria-expanded="false" aria-controls="collapseOne"> 
+                 Do you provide additional support?
+                </h2>
+                <span class="col-lg-1 col-xl-1 col-md-1 col-2" data-toggle="collapse" data-target="#ques-five" aria-expanded="false" aria-controls="collapseOne">
+                  <img src="/assets/images/icon-arrow-down.svg">
+                </span>
+              </div>
+          
+              <div id="ques-five" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                  You can contact our customer service team any time for any additional support required.
+              </div>
+            </div>
+
+          </div>
+
+          <!-- <div class="faq-ques-block ">
+            <div class="ques-block row">
+              <p class="collapsed col-lg-11">
+                How many team members can I invite? 
+              </p>
+              <span class="col-lg-1"  data-toggle="collapse" data-target="#ques-one" aria-expanded="false" aria-controls="collapseTwo">
+                <img src="/assets/images/icon-arrow-down.svg" alt="down-chevron" >
+              </span>
+
+              <div id="ques-one" class="collapse" aria-labelledby="headingTwo">
+              
+                  Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. 
+                  Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. 
+                  Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. 
+                  Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+              </div>
+            </div>
+          </div> -->
+
+        </div>
+      </div>
+    </div>
+
+    <!-- <img src="assets/images/bg-pattern-desktop.svg" alt="">
+    <img src="assets/images/bg-pattern-mobile.svg" alt="">
+    <img src="assets/images/icon-arrow-down.svg" alt="">
+    <img src="assets/images/illustration-box-desktop.svg" alt="">
+    <img src="assets/images/illustration-woman-online-desktop.svg" alt="">
+    <img src="assets/images/illustration-woman-online-mobile.svg" alt=""> -->
+
+  </div>
+
+
+ 
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+  <!-- <script src="assets/scripts/jquery-3.3.1.min.js "></script>
+  <script src="assets/scripts/popper.min.js "></script>
+  <script src="assets/scripts/bootstrap.min.js "></script> -->
+</body>
+</html>

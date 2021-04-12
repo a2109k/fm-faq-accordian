@@ -1,0 +1,178 @@
+@font-face {
+  font-family: KumbhSans-Bold;
+  src: url("../fonts/KumbhSans-Bold.ttf");
+}
+
+@font-face {
+  font-family: KumbhSans-Regular;
+  src: url("../fonts/KumbhSans-Regular.ttf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+}
+
+body, html {
+  font-size: 12px;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.main-wrapper {
+  width: 100%;
+  height: 100%;
+  min-height: 100vh;
+  background: -webkit-gradient(linear, left bottom, left top, from(#6565e7), to(#af67e9));
+  background: linear-gradient(to top, #6565e7, #af67e9);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main-wrapper .main-content {
+  height: 500px;
+  width: 70%;
+  background: #fff;
+  border-radius: 20px;
+}
+
+.main-wrapper .main-content .left-col {
+  background: url("../images/bg-pattern-desktop.svg");
+  background-position: 125% 70%;
+  background-repeat: no-repeat;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+}
+
+.main-wrapper .main-content .left-col .women-img-wrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.main-wrapper .main-content .left-col .women-img-wrapper img {
+  max-width: 100%;
+  height: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-71%, -59%);
+          transform: translate(-71%, -59%);
+  z-index: 2;
+}
+
+.main-wrapper .main-content .left-col .box-img-wrapper {
+  z-index: 3;
+  max-width: 100%;
+}
+
+.main-wrapper .main-content .left-col .box-img-wrapper img {
+  position: absolute;
+  -webkit-transform: translate(-49%, 96%);
+          transform: translate(-49%, 96%);
+  top: 0%;
+  left: 0%;
+  z-index: 10;
+  max-width: 100%;
+}
+
+.main-wrapper .main-content h1 {
+  margin: 70px 0 20px;
+  color: #4a4b5e;
+  font-family: KumbhSans-Bold;
+}
+
+.main-wrapper .main-content .faq-questions {
+  margin: auto 0;
+  width: 90%;
+}
+
+.main-wrapper .main-content .faq-questions .faq-ques-block {
+  padding: 15px 0px;
+  border-bottom: 1px solid #e7e7e9;
+}
+
+.main-wrapper .main-content .faq-questions .faq-ques-block .faq-ques h2 {
+  font-size: 15px;
+  color: #4a4b5e;
+  padding: 0;
+}
+
+.main-wrapper .main-content .faq-questions .faq-ques-block .faq-ques span {
+  text-align: end;
+  padding: 0 5px;
+  margin: 0;
+}
+
+.main-wrapper .main-content .faq-questions .faq-ques-block .faq-ques h2[aria-expanded="true"] {
+  color: #4a4b5e;
+  font-family: KumbhSans-Bold;
+}
+
+@media (max-width: 720px) {
+  .main-wrapper {
+    font-size: 14px;
+    height: 100%;
+    padding: 20vh 0 !important;
+    -webkit-box-align: unset;
+        -ms-flex-align: unset;
+            align-items: unset;
+  }
+  .main-wrapper .main-content {
+    font-size: 14px;
+    width: 90%;
+    height: 70%;
+    min-height: 480px;
+    overflow: visible;
+  }
+  .main-wrapper .main-content .left-col {
+    background: url("../images/bg-pattern-mobile.svg");
+    background-position: 50% 0%;
+    background-repeat: no-repeat;
+    min-height: 70px;
+  }
+  .main-wrapper .main-content .left-col .women-img-wrapper {
+    position: relative;
+    width: 100%;
+    overflow: visible;
+  }
+  .main-wrapper .main-content .left-col .women-img-wrapper img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-56%, -80%);
+            transform: translate(-56%, -80%);
+  }
+  .main-wrapper .main-content .right-col {
+    height: 70%;
+  }
+  .main-wrapper .main-content h1 {
+    margin: 5% 0 15px;
+  }
+  .main-wrapper .main-content .faq-questions {
+    width: 100%;
+  }
+  .main-wrapper .main-content .faq-questions .faq-ques-block {
+    padding: 10px 0px;
+  }
+  .main-wrapper .main-content .faq-questions .faq-ques-block .faq-ques h2 {
+    font-size: 14px;
+  }
+}
+/*# sourceMappingURL=styles.css.map */

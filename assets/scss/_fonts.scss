@@ -1,0 +1,16 @@
+// FONT FAMILY
+
+$KumbhSansRegular: KumbhSans-Regular;
+$KumbhSansBold: KumbhSans-Bold;
+
+
+@font-face {
+    font-family: $KumbhSansBold;
+    src: url("../fonts/KumbhSans-Bold.ttf");
+}
+@font-face {
+    font-family: $KumbhSansRegular;
+    src: url("../fonts/KumbhSans-Regular.ttf");
+}
+
+
